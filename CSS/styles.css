@@ -1,0 +1,154 @@
+body{
+    text-align: center; /* this align every inline elements in the center
+                        but not those elements which have width.
+    */
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+}
+.top-container{
+    background-color: #D5B4B4;
+    position: relative; /* it has to be relative otherwise bottom cloud will be 
+                            absolute relative to the body.
+    */
+    padding-top: 100px;
+}
+.middle-container{
+    background-color: #D5B4B4;
+    padding: 100px 0px 0px 0px;
+}
+h1{
+    color: #FE6244;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    /*
+        width: 20%;
+        margin: 0 auto 0 auto;
+     since, the element is now not acts as inline element
+                we used auto option of margin to align our element in centre.
+    */
+    font-size: 5.625rem;
+    /*
+        rem is more used in CSS3
+        16px = 100% = 1em --> here em is dynamic scale size
+         where px and % are static scale size.
+        here, em is diffrent from HTML em(used for italic font style) 
+    */
+    font-family: 'Sacramento', serif;
+    /* line-height: 2;
+        it's the height btwn uppr n lower text.
+    */
+}
+h2{
+    color: #FE6244;
+    font-weight: lighter;
+    font-family: 'Alkatra', serif;
+    margin-top: 0px;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+h3{
+    color: #66347F;
+    font-family: 'Alkatra', serif;
+}
+span{
+    text-decoration: underline;
+}
+.Intro{
+    margin: auto;
+    width: 80%;
+}
+p{
+    line-height: 2;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+.skill-row{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+.cooking{
+    width: 25%;
+    float: right;
+    /* 
+        float is the property which is for wrapping the text around the img.
+    */
+    
+}
+.web-dev{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.profile{
+    width: 40%;
+    margin: auto;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #19376D;
+    border-width: 7px;
+    width: 5%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contact-me{
+    padding-bottom: 60px;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px auto;
+}
+.btn {
+    background: #5a10d1;
+    background-image: -webkit-linear-gradient(top, #5a10d1, #e01d61);
+    background-image: -moz-linear-gradient(top, #5a10d1, #e01d61);
+    background-image: -ms-linear-gradient(top, #5a10d1, #e01d61);
+    background-image: -o-linear-gradient(top, #5a10d1, #e01d61);
+    background-image: linear-gradient(to bottom, #5a10d1, #e01d61);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #29cf17;
+    background-image: -webkit-linear-gradient(top, #29cf17, #a3cf1f);
+    background-image: -moz-linear-gradient(top, #29cf17, #a3cf1f);
+    background-image: -ms-linear-gradient(top, #29cf17, #a3cf1f);
+    background-image: -o-linear-gradient(top, #29cf17, #a3cf1f);
+    background-image: linear-gradient(to bottom, #29cf17, #a3cf1f);
+    text-decoration: none;
+}
+.bottom-container{
+    background-color: #FFACAC;
+    padding: 50px 0px 20px;
+}
+a{
+    color: #66347F;
+    font-family: 'Merriweather', serif;
+    margin: 20px 10px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAf6F6;
+}
+.copy{
+    color: #EAf6F6;
+    font-size: 0.95rem;
+    padding: 20px 0px;
+}
